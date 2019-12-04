@@ -42,4 +42,5 @@ def total_even_pairs(src)
       total_even_sum += (each[0]+each[1])
     end
   end
+  total_even_sum
 end
