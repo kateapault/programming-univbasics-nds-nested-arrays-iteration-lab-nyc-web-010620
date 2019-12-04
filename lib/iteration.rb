@@ -10,7 +10,7 @@ def join_ingredients(src)
   string_array = []
   until (i == src.length) do
     string_array.push("I love #{src[i][0]} and #{src[i][1]} on my pizza")
-    i++
+    i += 1
   end
   string_array
 end
@@ -23,7 +23,7 @@ def find_greater_pair(src)
   i = 0
   until (i == src.length) do
     bigger_nums.push(src[i].max)
-    i++
+    i += 1
   end  
   bigger_nums
 end
