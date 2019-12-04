@@ -6,10 +6,11 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
-  
+  i = 0
   string_array = []
   until (i == src.length) do
     string_array.push("I love #{src[i][0]} and #{src[i][1]} on my pizza")
+    i++
   end
   string_array
 end
@@ -22,6 +23,7 @@ def find_greater_pair(src)
   i = 0
   until (i == src.length) do
     bigger_nums.push(src[i].max)
+    i++
   end  
   bigger_nums
 end
