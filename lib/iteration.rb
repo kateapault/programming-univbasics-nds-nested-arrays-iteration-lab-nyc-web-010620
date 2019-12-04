@@ -36,7 +36,10 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
-  
-  
-  
+  total_even_sum = 0
+  for each in src do
+    if (each[0] % 2 == 0) && (each[1] % 2 == 0)
+      total_even_sum += (each[0]+each[1])
+    end
+  end
 end
