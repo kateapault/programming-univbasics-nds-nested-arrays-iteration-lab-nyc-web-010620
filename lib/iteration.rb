@@ -11,6 +11,7 @@ def join_ingredients(src)
   until (i == src.length) do
     string_array.push("I love #{src[i][0]} and #{src[i][1]} on my pizza")
   end
+  string_array
 end
 
 def find_greater_pair(src)
@@ -19,9 +20,10 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   bigger_nums = []
   
-  until 
-  
-  
+  until (i == src.length) do
+    bigger_nums.push(src[i].max)
+  end  
+  bigger_nums
 end
 
 def total_even_pairs(src)
